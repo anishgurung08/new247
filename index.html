@@ -1,0 +1,1614 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <!-- fontawesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Fonts -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- my css style  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>News247 - News Magazine Template</title>
+  </head>
+  <body>
+    <!-- header-section -->
+    <header class="header">
+      <div class="border-bottom">
+        <div
+          class="
+            container
+            header-top
+            d-flex
+            justify-content-between
+            pt-2
+            text-muted
+            flex-wrap
+          "
+        >
+          <div class="header-top_content d-flex">
+            <div class="header-top_content-date border-end border-2 px-2">
+              May 29, 2021
+            </div>
+            <ul class="list-unstyled list-inline px-2">
+              <li class="list-inline-item">About</li>
+              <li class="list-inline-item">Write for Us</li>
+              <li class="list-inline-item">Advertise</li>
+              <li class="list-inline-item">Contact</li>
+            </ul>
+          </div>
+          <div class="header-top_social">
+            <i class="fab fa-facebook-f px-2"></i>
+            <i class="fab fa-twitter px-2"></i>
+            <i class="fab fa-google-plus-g px-2"></i>
+            <i class="fab fa-linkedin-in px-2"></i>
+            <i class="fab fa-skype px-2"></i>
+            <i class="fas fa-rss px-2"></i>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="header-logo d-flex justify-content-between flex-wrap my-2">
+          <div class="d-flex align-items-center">
+            <img src="img/logo.png" alt="logo" class="img-logo my-3" />
+          </div>
+          <div class="mb-3">
+            <img src="img/ad-top-header.png" alt="ad-top-header" />
+          </div>
+        </div>
+        <div
+          class="header-content_underline border-bottom border-3 border-danger"
+        ></div>
+        <nav class="navbar navbar-expand-lg border-bottom">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#myNavbar"
+          >
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </button>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item mx-auto">
+                <a class="nav-link text-uppercase nav-active" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item mx-auto">
+                <a class="nav-link text-uppercase" href="shop.html"
+                  >lifestyle</a
+                >
+              </li>
+
+              <li class="nav-item mx-auto">
+                <a class="nav-link text-uppercase" href="product.html"
+                  >technology</a
+                >
+              </li>
+              <li class="nav-item mx-auto">
+                <a class="nav-link text-uppercase" href="#projects">video</a>
+              </li>
+              <li class="nav-item mx-auto">
+                <a class="nav-link text-uppercase" href="#posts">travel</a>
+              </li>
+              <li class="nav-item mx-auto">
+                <a class="nav-link text-uppercase" href="#reviews">features</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-icons ms-auto">
+            <a href="#" class="search-link"
+              ><i class="fas fa-search px-3"></i>
+              <span class="search-input">
+                <input
+                  type="search"
+                  name="search"
+                  id="search"
+                  size="30"
+                  placeholder="Type what you want and enter"
+                /> </span
+            ></a>
+          </div>
+        </nav>
+        <div class="banner row">
+          <div class="col-lg-6">
+            <div
+              id="carouselExampleCaptions"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active banner-img">
+                  <img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/health5.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption text-start banner-img_content">
+                    <p class="text-uppercase banner-topic">Health</p>
+                    <h3>
+                      Netcix cuts put the chill with an integrated personal
+                      trainer on running
+                    </h3>
+                    <p>March 16, 2021</p>
+                  </div>
+                </div>
+                <div class="carousel-item banner-img">
+                  <img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/tech/gadget2.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption text-start banner-img_content">
+                    <p class="text-uppercase banner-topic">Health</p>
+                    <h3>
+                      Netcix cuts put the chill with an integrated personal
+                      trainer on running
+                    </h3>
+                    <p>March 16, 2017</p>
+                  </div>
+                </div>
+                <div class="carousel-item banner-img">
+                  <img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/travel5.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption text-start banner-img_content">
+                    <p class="text-uppercase banner-topic">Health</p>
+                    <h3>
+                      Netcix cuts put the chill with an integrated personal
+                      trainer on running
+                    </h3>
+                    <p>March 16, 2017</p>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <d class="col-12 col-lg-6">
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="banner_side-img card">
+                  <img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/tech/gadget2.jpg"
+                    alt=""
+                  />
+                  <div class="banner_side-img_content">
+                    <p class="banner-topic text-uppercase">Gadgets</p>
+                    <h5>Samsung gear S3 review: A whimper, when...</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-6">
+                <div class="banner_side-img card">
+                  <img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/tech/game5.jpg"
+                    alt=""
+                  />
+                  <div class="banner_side-img_content">
+                    <p class="banner-topic text-uppercase">Games</p>
+                    <h5>History heroes and robot dinosaurs...</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-6">
+                <div class="banner_side-img card">
+                  <img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/travel2.jpg"
+                    alt=""
+                  />
+                  <div class="banner_side-img_content">
+                    <p class="banner-topic text-uppercase">travel</p>
+                    <h5>Early tourists choices to the sea of Maldiv...</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-6">
+                <div class="banner_side-img card">
+                  <img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/health1.jpg"
+                    alt=""
+                  />
+                  <div class="banner_side-img_content">
+                    <p class="banner-topic text-uppercase">health</p>
+                    <h5>That wearable on your wrist could soon...</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </d>
+        </div>
+      </div>
+    </header>
+    <!-- end of  header-section -->
+
+    <!-- showcase section -->
+    <section class="showcase my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-8">
+            <div
+              class="
+                tech-header
+                d-flex
+                justify-content-between
+                text-uppercase
+                border-bottom border-3 border-dark
+                mb-4
+              "
+            >
+              <h5 class="showcase-tech">technology</h5>
+              <h6>
+                <span>Gadgets</span>
+                <span class="px-3">Games</span>
+                <span>robotics</span>
+              </h6>
+            </div>
+            <div class="row">
+              <div class="col-12 col-lg-6 card py-0 border-0">
+                <img
+                  src="http://demo.themewinter.com/html/news247-bs4/images/news/tech/robot2.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body px-0">
+                  <h5 class="card-title">
+                    There's no escaping Watsone Dynamics' wheeled jumping robot
+                  </h5>
+                  <p class="card-text">
+                    <strong class="pe-2 border-end border-2">John Doe</strong
+                    ><span class="ps-2 text-muted">Feb 24, 2021</span>
+                  </p>
+                  <p class="card-text text-muted">
+                    Lumbersexual meh sustainable Thundercats meditation kogi.
+                    Tilde Pitchfork vegan, gentrify minim elit semiotics non
+                    messenger bag Austin which roasted ...
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="row">
+                  <!-- robotic sider thumbnail 1 -->
+                  <div
+                    class="
+                      col-4
+                      p-0
+                      d-flex
+                      align-items-center
+                      showcase-robert
+                      mb-3
+                    "
+                  >
+                    <span
+                      ><img
+                        src="http://demo.themewinter.com/html/news247-bs4/images/news/tech/robot1.jpg"
+                        alt=""
+                    /></span>
+                  </div>
+                  <div class="col-8">
+                    <p class="fw-bold">
+                      Robot Life on Mars! Meet the Machines Exploring the Red
+                      Planet To…
+                    </p>
+                    <p class="text-muted my-0">Feb 13, 2021</p>
+                  </div>
+                  <!-- end of robotic sider thumbnail 1 -->
+
+                  <!-- robotic sider thumbnail 2 -->
+                  <div
+                    class="
+                      col-4
+                      p-0
+                      d-flex
+                      mb-3
+                      align-items-center
+                      showcase-robert
+                    "
+                  >
+                    <span
+                      ><img
+                        src="http://demo.themewinter.com/html/news247-bs4/images/news/tech/robot3.jpg"
+                        alt=""
+                    /></span>
+                  </div>
+                  <div class="col-8">
+                    <p class="fw-bold">
+                      Amaging China mech suit aims to assist with Lukushima
+                      cleanup
+                    </p>
+                    <p class="text-muted my-0">Feb 13, 2021</p>
+                  </div>
+                  <!-- end of robotic sider thumbnail 2 -->
+
+                  <!-- robotic sider thumbnail 3 -->
+                  <div
+                    class="
+                      col-4
+                      p-0
+                      d-flex
+                      align-items-center
+                      showcase-robert
+                      mb-3
+                    "
+                  >
+                    <span
+                      ><img
+                        src="http://demo.themewinter.com/html/news247-bs4/images/news/tech/robot4.jpg"
+                        alt=""
+                    /></span>
+                  </div>
+                  <div class="col-8">
+                    <p class="fw-bold">
+                      Taddler robot provides insights into early childhood
+                      learning
+                    </p>
+                    <p class="text-muted my-0">Feb 13, 2021</p>
+                  </div>
+                  <!-- end of robotic sider thumbnail 3 -->
+
+                  <!-- robotic sider thumbnail 3 -->
+                  <div
+                    class="
+                      col-4
+                      p-0
+                      d-flex
+                      align-items-center
+                      showcase-robert
+                      mb-3
+                    "
+                  >
+                    <span
+                      ><img
+                        src="http://demo.themewinter.com/html/news247-bs4/images/news/tech/robot5.jpg"
+                        alt=""
+                    /></span>
+                  </div>
+                  <div class="col-8">
+                    <p class="fw-bold">
+                      Robots in hospitals can be quite handy to navigate around
+                      the ho…
+                    </p>
+                    <p class="text-muted my-0">Feb 13, 2021</p>
+                  </div>
+                  <!-- end of robotic sider thumbnail 3 -->
+                </div>
+              </div>
+            </div>
+
+            <!-- Lifestyle section -->
+            <div
+              class="
+                tech-header
+                d-flex
+                justify-content-between
+                text-uppercase
+                border-bottom border-3 border-dark
+                my-4
+              "
+            >
+              <h5 class="lifestyle">Travel</h5>
+            </div>
+            <!-- lifestyle content -->
+            <div class="row">
+              <!-- lifestyle content left slide -->
+              <div class="col-12 col-lg-6">
+                <div class="card border-0 lifestyle_content">
+                  <img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/travel1.jpg"
+                    alt=""
+                  />
+                  <div class="lifestyle-card text-white">
+                    <p class="text-uppercase life-yellow fs-6">Health</p>
+                    <h5>
+                      Netcix cuts put the chill with an integrated personal
+                      trainer on running
+                    </h5>
+                    <p>March 16, 2021</p>
+                  </div>
+                </div>
+
+                <div class="row ms-1">
+                  <!-- lifestyle sider thumbnail 1 -->
+                  <div
+                    class="
+                      col-4
+                      p-0
+                      d-flex
+                      align-items-center
+                      showcase-robert
+                      my-3
+                    "
+                  >
+                    <span
+                      ><img
+                        src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/food1.jpg"
+                        alt=""
+                    /></span>
+                  </div>
+                  <div class="col-8 my-3">
+                    <p class="fw-bold">
+                      Robot Life on Mars! Meet the Machines Exploring the Red
+                      Planet To…
+                    </p>
+                    <p class="text-muted my-0">Feb 13, 2021</p>
+                  </div>
+                  <!-- end of lifestyle sider thumbnail 1 -->
+
+                  <!-- lifestyle sider thumbnail 2 -->
+                  <div
+                    class="
+                      col-4
+                      p-0
+                      d-flex
+                      align-items-center
+                      showcase-robert
+                      my-3
+                    "
+                  >
+                    <span
+                      ><img
+                        src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/health1.jpg"
+                        alt=""
+                    /></span>
+                  </div>
+                  <div class="col-8 my-3">
+                    <p class="fw-bold">
+                      Tacos ditched the naked chicken chalupa, so here's how to
+                      make
+                    </p>
+                    <p class="text-muted my-0">Feb 13, 2021</p>
+                  </div>
+                  <!-- end of lifestyle sider thumbnail 2 -->
+
+                  <!-- lifestyle sider thumbnail 3 -->
+                  <div
+                    class="
+                      col-4
+                      p-0
+                      d-flex
+                      align-items-center
+                      showcase-robert
+                      my-3
+                    "
+                  >
+                    <span
+                      ><img
+                        src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/travel2.jpg"
+                        alt=""
+                    /></span>
+                  </div>
+                  <div class="col-8 my-3">
+                    <p class="fw-bold">
+                      Early tourists choices to the sea of Maldives in fancy
+                      dresses an…
+                    </p>
+                    <p class="text-muted my-0">Feb 13, 2021</p>
+                  </div>
+                  <!-- end of lifestyle sider thumbnail 3 -->
+
+                  <!-- lifestyle sider thumbnail 4 -->
+                  <div
+                    class="
+                      col-4
+                      p-0
+                      d-flex
+                      align-items-center
+                      showcase-robert
+                      my-3
+                    "
+                  >
+                    <span
+                      ><img
+                        src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/architecture2.jpg"
+                        alt=""
+                    /></span>
+                  </div>
+                  <div class="col-8 my-3">
+                    <p class="fw-bold">
+                      Science meets architecture in robotically coven,
+                      solar-active str…
+                    </p>
+                    <p class="text-muted my-0">Feb 13, 2021</p>
+                  </div>
+                  <!-- end of lifestyle sider thumbnail 4 -->
+                </div>
+              </div>
+              <!-- end of lifestyle content left slide -->
+
+              <!-- lifestyle content right slide -->
+              <div class="col-12 col-lg-6">
+                <div class="card lifestyle_content">
+                  <img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/architecture3.jpg"
+                    alt=""
+                  />
+                  <div class="lifestyle-card text-white">
+                    <p class="text-uppercase life-yellow fs-6">design</p>
+                    <h5>
+                      That wearable on your wrist could soon track your health
+                      as well…
+                    </h5>
+                    <p>March 16, 2021</p>
+                  </div>
+                </div>
+
+                <div class="row ms-1">
+                  <!-- lifestyle sider thumbnail 1 -->
+                  <div
+                    class="
+                      col-4
+                      p-0
+                      d-flex
+                      align-items-center
+                      showcase-robert
+                      my-3
+                    "
+                  >
+                    <span
+                      ><img
+                        src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/health2.jpg"
+                        alt=""
+                    /></span>
+                  </div>
+                  <div class="col-8 my-3">
+                    <p class="fw-bold">
+                      Can't shed those Gym? The problem might be in your health
+                    </p>
+                    <p class="text-muted my-0">Feb 13, 2021</p>
+                  </div>
+                  <!-- end of lifestyle sider thumbnail 1 -->
+
+                  <!-- lifestyle sider thumbnail 2 -->
+                  <div
+                    class="
+                      col-4
+                      p-0
+                      d-flex
+                      align-items-center
+                      showcase-robert
+                      my-3
+                    "
+                  >
+                    <span
+                      ><img
+                        src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/food2.jpg"
+                        alt=""
+                    /></span>
+                  </div>
+                  <div class="col-8 my-3">
+                    <p class="fw-bold">
+                      Can't shed those Gym? The problem might be in your health
+                    </p>
+                    <p class="text-muted my-0">Feb 13, 2021</p>
+                  </div>
+                  <!-- end of lifestyle sider thumbnail 2 -->
+
+                  <!-- lifestyle sider thumbnail 3 -->
+                  <div
+                    class="
+                      col-4
+                      p-0
+                      d-flex
+                      align-items-center
+                      showcase-robert
+                      my-3
+                    "
+                  >
+                    <span
+                      ><img
+                        src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/architecture1.jpg"
+                        alt=""
+                    /></span>
+                  </div>
+                  <div class="col-8 my-3">
+                    <p class="fw-bold">
+                      Can't shed those Gym? The problem might be in your health
+                    </p>
+                    <p class="text-muted my-0">Feb 13, 2021</p>
+                  </div>
+                  <!-- end of lifestyle sider thumbnail 3 -->
+
+                  <!-- lifestyle sider thumbnail 4 -->
+                  <div
+                    class="
+                      col-4
+                      p-0
+                      d-flex
+                      align-items-center
+                      showcase-robert
+                      my-3
+                    "
+                  >
+                    <span
+                      ><img
+                        src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/travel5.jpg"
+                        alt=""
+                    /></span>
+                  </div>
+                  <div class="col-8 my-3">
+                    <p class="fw-bold">
+                      Can't shed those Gym? The problem might be in your health
+                    </p>
+                    <p class="text-muted my-0">Feb 13, 2021</p>
+                  </div>
+                  <!-- end of lifestyle sider thumbnail 4 -->
+                </div>
+              </div>
+              <!-- end of lifestyle content right slide -->
+            </div>
+
+            <!-- end of lifestyle content -->
+
+            <!-- Lastest section -->
+            <div
+              class="
+                tech-header
+                d-flex
+                justify-content-between
+                text-uppercase
+                border-bottom border-3 border-dark
+                my-4
+              "
+            >
+              <h5 class="latest-news">Latest News</h5>
+            </div>
+
+            <!-- Latest content -->
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <div class="card border-0 latest-card-img">
+                  <img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/travel5.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <span class="latest-card-topic">TRAVEL</span>
+                  <div class="card-body px-0">
+                    <h6 class="card-title">
+                      Hynopedia helps female travelers find health …
+                    </h6>
+                    <p class="card-text">
+                      <strong class="pe-2 border-end border-2">John Doe</strong
+                      ><span class="ps-2 text-muted">Feb 24, 2021</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Latest content 2 -->
+              <div class="col-12 col-lg-4">
+                <div class="card border-0 latest-card-img">
+                  <img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/tech/gadget2.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <span class="latest-card-topic">GADGET</span>
+                  <div class="card-body px-0">
+                    <h6 class="card-title">
+                      Samsung Gear S3 review: A whimper, when...
+                    </h6>
+                    <p class="card-text">
+                      <strong class="pe-2 border-end border-2">John Doe</strong
+                      ><span class="ps-2 text-muted">Feb 24, 2021</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- end of Latest content 2 -->
+
+              <!-- Latest content 3 -->
+              <div class="col-12 col-lg-4 d-none d-lg-block">
+                <div class="card border-0 latest-card-img">
+                  <img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/food3.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <span class="latest-card-topic">FOOD</span>
+                  <div class="card-body px-0">
+                    <h6 class="card-title">
+                      You can now get paid to shove chocolate coffe…
+                    </h6>
+                    <p class="card-text">
+                      <strong class="pe-2 border-end border-2">John Doe</strong
+                      ><span class="ps-2 text-muted">Feb 24, 2021</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- end of Latest content 3 -->
+
+              <!-- Latest content 4 -->
+              <div class="col-12 col-lg-4 d-none d-lg-block">
+                <div class="card border-0 latest-card-img">
+                  <img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/health4.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <span class="latest-card-topic">HEALTH</span>
+                  <div class="card-body px-0">
+                    <h6 class="card-title">
+                      Samsung Gear S3 review: A whimper, when...
+                    </h6>
+                    <p class="card-text">
+                      <strong class="pe-2 border-end border-2">John Doe</strong
+                      ><span class="ps-2 text-muted">Feb 24, 2021</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- end of Latest content 4 -->
+
+              <!-- Latest content 5 -->
+              <div class="col-12 col-lg-4 d-none d-lg-block">
+                <div class="card border-0 latest-card-img">
+                  <img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/architecture3.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <span class="latest-card-topic">ARCHITECTURE</span>
+                  <div class="card-body px-0">
+                    <h6 class="card-title">
+                      The bedroom keys to Bond villain chic: The be…
+                    </h6>
+                    <p class="card-text">
+                      <strong class="pe-2 border-end border-2">John Doe</strong
+                      ><span class="ps-2 text-muted">Feb 24, 2021</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- end of Latest content 5 -->
+
+              <!-- Latest content 6 -->
+              <div class="col-12 col-lg-4 d-none d-lg-block">
+                <div class="card border-0 latest-card-img">
+                  <img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/tech/game1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <span class="latest-card-topic">GAMES</span>
+                  <div class="card-body px-0">
+                    <h6 class="card-title">
+                      Historical heroes and robot dinosaurs: New...
+                    </h6>
+                    <p class="card-text">
+                      <strong class="pe-2 border-end border-2">John Doe</strong
+                      ><span class="ps-2 text-muted">Feb 24, 2021</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- end of Latest content 6 -->
+            </div>
+          </div>
+
+          <!-- end of Latest content -->
+
+          <!-- End of Lastest section -->
+
+          <div class="col-12 col-lg-4">
+            <!-- Follow us section -->
+            <div
+              class="
+                tech-header
+                d-flex
+                justify-content-between
+                text-uppercase
+                border-bottom border-3 border-dark
+                mb-4
+              "
+            >
+              <h5 class="follow-us">Follow US</h5>
+            </div>
+
+            <div class="">
+              <ul class="social-icon d-flex">
+                <li>
+                  <a href="#" target="_blank"><i class="fa fa-rss"></i></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"
+                    ><i class="fab fa-google-plus-g"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><i class="fab fa-vimeo-v"></i></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                </li>
+              </ul>
+            </div>
+            <!-- End of Follow us section -->
+
+            <!-- Popular News Section -->
+            <div
+              class="
+                tech-header
+                d-flex
+                justify-content-between
+                text-uppercase
+                border-bottom border-3 border-dark
+                my-5
+              "
+            >
+              <h5 class="follow-us">Popular News</h5>
+            </div>
+            <!-- lifestyle content  -->
+            <div class="card border-0 lifestyle_content">
+              <img
+                src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/travel1.jpg"
+                alt=""
+              />
+              <div class="lifestyle-card text-white">
+                <p class="text-uppercase life-yellow fs-6">Health</p>
+                <h5>
+                  Netcix cuts put the chill with an integrated personal trainer
+                  on running
+                </h5>
+                <p>March 16, 2021</p>
+              </div>
+            </div>
+            <!-- end of lifestyle content -->
+
+            <!--  life style thumbnail section -->
+            <div class="row ms-1 my-4">
+              <!-- lifestyle sider thumbnail 1 -->
+              <div
+                class="col-4 p-0 d-flex align-items-center showcase-robert my-3"
+              >
+                <span
+                  ><img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/health2.jpg"
+                    alt=""
+                /></span>
+              </div>
+              <div class="col-8 my-3">
+                <p class="fw-bold">
+                  Can't shed those Gym? The problem might be in your health
+                </p>
+                <p class="text-muted my-0">Feb 13, 2021</p>
+              </div>
+              <!-- end of lifestyle sider thumbnail 1 -->
+
+              <!-- lifestyle sider thumbnail 2 -->
+              <div
+                class="col-4 p-0 d-flex align-items-center showcase-robert my-3"
+              >
+                <span
+                  ><img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/food2.jpg"
+                    alt=""
+                /></span>
+              </div>
+              <div class="col-8 my-3">
+                <p class="fw-bold">
+                  Can't shed those Gym? The problem might be in your health
+                </p>
+                <p class="text-muted my-0">Feb 13, 2021</p>
+              </div>
+              <!-- end of lifestyle sider thumbnail 2 -->
+
+              <!-- lifestyle sider thumbnail 3 -->
+              <div
+                class="col-4 p-0 d-flex align-items-center showcase-robert my-3"
+              >
+                <span
+                  ><img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/architecture1.jpg"
+                    alt=""
+                /></span>
+              </div>
+              <div class="col-8 my-3">
+                <p class="fw-bold">
+                  Can't shed those Gym? The problem might be in your health
+                </p>
+                <p class="text-muted my-0">Feb 13, 2021</p>
+              </div>
+              <!-- end of lifestyle sider thumbnail 3 -->
+
+              <!-- lifestyle sider thumbnail 4 -->
+              <div
+                class="col-4 p-0 d-flex align-items-center showcase-robert my-3"
+              >
+                <span
+                  ><img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/travel5.jpg"
+                    alt=""
+                /></span>
+              </div>
+              <div class="col-8 my-3">
+                <p class="fw-bold">
+                  Can't shed those Gym? The problem might be in your health
+                </p>
+                <p class="text-muted my-0">Feb 13, 2021</p>
+              </div>
+              <!-- end of lifestyle sider thumbnail 4 -->
+            </div>
+            <!-- end of life style thumbnail section -->
+
+            <!-- lifestyle ads section -->
+            <div class="card border-0 ad-img">
+              <img
+                src="http://demo.themewinter.com/html/news247-bs4/images/banner-ads/ad-sidebar.png"
+                alt=""
+              />
+            </div>
+            <!-- end of lifestyle ads section -->
+
+            <!-- End of Popular News Section -->
+
+            <!-- Trending News Section -->
+            <div
+              class="
+                tech-header
+                d-flex
+                justify-content-between
+                text-uppercase
+                border-bottom border-3 border-dark
+                my-4
+              "
+            >
+              <h5 class="follow-us">Trending News</h5>
+            </div>
+
+            <!-- trending news content -->
+            <div class="card border-0 lifestyle_content mb-3">
+              <img
+                src="http://demo.themewinter.com/html/news247-bs4/images/news/tech/gadget1.jpg"
+                alt=""
+              />
+              <div class="lifestyle-card text-white">
+                <p class="text-uppercase life-yellow fs-6">Gadgets</p>
+                <h5>The best MacBook Pro alternatives in 2017 for Appl…</h5>
+                <p>March 16, 2021</p>
+              </div>
+            </div>
+
+            <div class="card border-0 lifestyle_content mb-3">
+              <img
+                src="http://demo.themewinter.com/html/news247-bs4/images/news/video/video1.jpg"
+                alt=""
+              />
+              <div class="lifestyle-card text-white">
+                <p class="text-uppercase life-yellow fs-6">Video</p>
+                <h5>
+                  Netcix cuts put the chill with an integrated personal trainer
+                  on running
+                </h5>
+                <p>March 16, 2021</p>
+              </div>
+            </div>
+
+            <!-- end of trending news content -->
+
+            <!-- end of Trending News Section -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of showcase section -->
+
+    <!-- watch now section -->
+    <section class="watchnow mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-7">
+            <h3 class="text-uppercase text-white my-3">watch now</h3>
+            <div class="card border-0 watchnow_content">
+              <img
+                src="http://demo.themewinter.com/html/news247-bs4/images/news/video/video4.jpg"
+                alt=""
+              />
+              <div class="watchnow-card text-white">
+                <!-- video modal -->
+                <article
+                  id="modal-filler"
+                  class="d-flex align-items-center justify-content-center"
+                >
+                  <!-- Modal -->
+                  <a href="#">
+                    <i
+                      class="fas fa-play-circle"
+                      data-bs-toggle="modal"
+                      data-bs-target="#myModal"
+                    ></i>
+                  </a>
+                </article>
+                <!-- end of video modal -->
+                <p class="text-uppercase wn-black fs-6">Video</p>
+                <h3>
+                  Is Running Good for You, Health Benefits of Morning Running
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-5">
+            <div class="row ms-1 my-4 text-white">
+              <!-- lifestyle sider thumbnail 1 -->
+              <div
+                class="col-4 p-0 d-flex align-items-center showcase-robert my-3"
+              >
+                <span
+                  ><img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/health2.jpg"
+                    alt=""
+                /></span>
+              </div>
+              <div class="col-8 my-3">
+                <p class="fw-bold">
+                  Can't shed those Gym? The problem might be in your health
+                </p>
+                <p class="text-muted my-0">Feb 13, 2021</p>
+              </div>
+              <!-- end of lifestyle sider thumbnail 1 -->
+
+              <!-- lifestyle sider thumbnail 2 -->
+              <div
+                class="col-4 p-0 d-flex align-items-center showcase-robert my-3"
+              >
+                <span
+                  ><img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/food2.jpg"
+                    alt=""
+                /></span>
+              </div>
+              <div class="col-8 my-3">
+                <p class="fw-bold">
+                  Can't shed those Gym? The problem might be in your health
+                </p>
+                <p class="text-muted my-0">Feb 13, 2021</p>
+              </div>
+              <!-- end of lifestyle sider thumbnail 2 -->
+
+              <!-- lifestyle sider thumbnail 3 -->
+              <div
+                class="col-4 p-0 d-flex align-items-center showcase-robert my-3"
+              >
+                <span
+                  ><img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/architecture1.jpg"
+                    alt=""
+                /></span>
+              </div>
+              <div class="col-8 my-3">
+                <p class="fw-bold">
+                  Can't shed those Gym? The problem might be in your health
+                </p>
+                <p class="text-muted my-0">Feb 13, 2021</p>
+              </div>
+              <!-- end of lifestyle sider thumbnail 3 -->
+
+              <!-- lifestyle sider thumbnail 4 -->
+              <div
+                class="col-4 p-0 d-flex align-items-center showcase-robert my-3"
+              >
+                <span
+                  ><img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/travel5.jpg"
+                    alt=""
+                /></span>
+              </div>
+              <div class="col-8 my-3">
+                <p class="fw-bold">
+                  Can't shed those Gym? The problem might be in your health
+                </p>
+                <p class="text-muted my-0">Feb 13, 2021</p>
+              </div>
+              <!-- end of lifestyle sider thumbnail 4 -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of watch now section -->
+
+    <!-- block-wrapper section -->
+    <section class="block-wrapper">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 col-lg-4 mb-5">
+            <div
+              class="
+                tech-header
+                d-flex
+                justify-content-between
+                text-uppercase
+                border-bottom border-3 border-dark
+                mb-4
+              "
+            >
+              <h5 class="showcase-tech">travel</h5>
+            </div>
+            <div class="card border-0 lifestyle_content">
+              <img
+                src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/travel1.jpg"
+                alt=""
+              />
+              <div class="lifestyle-card text-white">
+                <h5>10 Hdrenaline fuelled activities that will chase the…</h5>
+                <p>March 16, 2021</p>
+              </div>
+            </div>
+
+            <div class="row ms-1 my-4">
+              <!-- lifestyle sider thumbnail 1 -->
+              <div
+                class="col-4 p-0 d-flex align-items-center showcase-robert my-3"
+              >
+                <span
+                  ><img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/health2.jpg"
+                    alt=""
+                /></span>
+              </div>
+              <div class="col-8 my-3">
+                <p class="fw-bold">
+                  Can't shed those Gym? The problem might be in your health
+                </p>
+                <p class="text-muted my-0">Feb 13, 2021</p>
+              </div>
+              <!-- end of lifestyle sider thumbnail 1 -->
+
+              <!-- lifestyle sider thumbnail 2 -->
+              <div
+                class="col-4 p-0 d-flex align-items-center showcase-robert my-3"
+              >
+                <span
+                  ><img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/food2.jpg"
+                    alt=""
+                /></span>
+              </div>
+              <div class="col-8 my-3">
+                <p class="fw-bold">
+                  Can't shed those Gym? The problem might be in your health
+                </p>
+                <p class="text-muted my-0">Feb 13, 2021</p>
+              </div>
+              <!-- end of lifestyle sider thumbnail 2 -->
+
+              <!-- lifestyle sider thumbnail 3 -->
+              <div
+                class="col-4 p-0 d-flex align-items-center showcase-robert my-3"
+              >
+                <span
+                  ><img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/architecture1.jpg"
+                    alt=""
+                /></span>
+              </div>
+              <div class="col-8 my-3">
+                <p class="fw-bold">
+                  Can't shed those Gym? The problem might be in your health
+                </p>
+                <p class="text-muted my-0">Feb 13, 2021</p>
+              </div>
+              <!-- end of lifestyle sider thumbnail 3 -->
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 mb-5">
+            <div
+              class="
+                tech-header
+                d-flex
+                justify-content-between
+                text-uppercase
+                border-bottom border-3 border-dark
+                mb-4
+              "
+            >
+              <h5 class="lifestyle">gadgets</h5>
+            </div>
+            <div class="card border-0 lifestyle_content">
+              <img
+                src="http://demo.themewinter.com/html/news247-bs4/images/news/tech/gadget1.jpg"
+                alt=""
+              />
+              <div class="lifestyle-card text-white">
+                <h5>
+                  The best MacBook Pro alternatives in 2017 for Apple users
+                </h5>
+                <p>March 16, 2021</p>
+              </div>
+            </div>
+
+            <div class="row ms-1 my-4">
+              <!-- lifestyle sider thumbnail 1 -->
+              <div
+                class="col-4 p-0 d-flex align-items-center showcase-robert my-3"
+              >
+                <span
+                  ><img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/health2.jpg"
+                    alt=""
+                /></span>
+              </div>
+              <div class="col-8 my-3">
+                <p class="fw-bold">
+                  Can't shed those Gym? The problem might be in your health
+                </p>
+                <p class="text-muted my-0">Feb 13, 2021</p>
+              </div>
+              <!-- end of lifestyle sider thumbnail 1 -->
+
+              <!-- lifestyle sider thumbnail 2 -->
+              <div
+                class="col-4 p-0 d-flex align-items-center showcase-robert my-3"
+              >
+                <span
+                  ><img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/food2.jpg"
+                    alt=""
+                /></span>
+              </div>
+              <div class="col-8 my-3">
+                <p class="fw-bold">
+                  Can't shed those Gym? The problem might be in your health
+                </p>
+                <p class="text-muted my-0">Feb 13, 2021</p>
+              </div>
+              <!-- end of lifestyle sider thumbnail 2 -->
+
+              <!-- lifestyle sider thumbnail 3 -->
+              <div
+                class="col-4 p-0 d-flex align-items-center showcase-robert my-3"
+              >
+                <span
+                  ><img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/architecture1.jpg"
+                    alt=""
+                /></span>
+              </div>
+              <div class="col-8 my-3">
+                <p class="fw-bold">
+                  Can't shed those Gym? The problem might be in your health
+                </p>
+                <p class="text-muted my-0">Feb 13, 2021</p>
+              </div>
+              <!-- end of lifestyle sider thumbnail 3 -->
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div
+              class="
+                tech-header
+                d-flex
+                justify-content-between
+                text-uppercase
+                border-bottom border-3 border-dark
+                mb-4
+              "
+            >
+              <h5 class="latest-news">Latest News</h5>
+            </div>
+            <div class="card border-0 lifestyle_content">
+              <img
+                src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/health1.jpg"
+                alt=""
+              />
+              <div class="lifestyle-card text-white">
+                <h5>
+                  That wearable on your wrist could soon track your health as …
+                </h5>
+                <p>March 16, 2021</p>
+              </div>
+            </div>
+
+            <div class="row ms-1 my-4">
+              <!-- lifestyle sider thumbnail 1 -->
+              <div
+                class="col-4 p-0 d-flex align-items-center showcase-robert my-3"
+              >
+                <span
+                  ><img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/health2.jpg"
+                    alt=""
+                /></span>
+              </div>
+              <div class="col-8 my-3">
+                <p class="fw-bold">
+                  Can't shed those Gym? The problem might be in your health
+                </p>
+                <p class="text-muted my-0">Feb 13, 2021</p>
+              </div>
+              <!-- end of lifestyle sider thumbnail 1 -->
+
+              <!-- lifestyle sider thumbnail 2 -->
+              <div
+                class="col-4 p-0 d-flex align-items-center showcase-robert my-3"
+              >
+                <span
+                  ><img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/food2.jpg"
+                    alt=""
+                /></span>
+              </div>
+              <div class="col-8 my-3">
+                <p class="fw-bold">
+                  Can't shed those Gym? The problem might be in your health
+                </p>
+                <p class="text-muted my-0">Feb 13, 2021</p>
+              </div>
+              <!-- end of lifestyle sider thumbnail 2 -->
+
+              <!-- lifestyle sider thumbnail 3 -->
+              <div
+                class="col-4 p-0 d-flex align-items-center showcase-robert my-3"
+              >
+                <span
+                  ><img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/architecture1.jpg"
+                    alt=""
+                /></span>
+              </div>
+              <div class="col-8 my-3">
+                <p class="fw-bold">
+                  Can't shed those Gym? The problem might be in your health
+                </p>
+                <p class="text-muted my-0">Feb 13, 2021</p>
+              </div>
+              <!-- end of lifestyle sider thumbnail 3 -->
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <img
+            src="http://demo.themewinter.com/html/news247-bs4/images/banner-ads/ad-content-two.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!-- end of block-wrapper section -->
+
+    <!-- footer section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <h6 class="text-uppercase my-5">Trending now</h6>
+            <div class="row ms-1 my-4 footer-text">
+              <!-- lifestyle sider thumbnail 1 -->
+              <div
+                class="col-4 p-0 d-flex align-items-center showcase-robert my-3"
+              >
+                <span
+                  ><img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/health2.jpg"
+                    alt=""
+                /></span>
+              </div>
+              <div class="col-8 my-3">
+                <p class="fw-bold">
+                  Can't shed those Gym? The problem might be in your health
+                </p>
+                <p class="text-muted my-0">Feb 13, 2021</p>
+              </div>
+              <!-- end of lifestyle sider thumbnail 1 -->
+
+              <!-- lifestyle sider thumbnail 2 -->
+              <div
+                class="col-4 p-0 d-flex align-items-center showcase-robert my-3"
+              >
+                <span
+                  ><img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/food2.jpg"
+                    alt=""
+                /></span>
+              </div>
+              <div class="col-8 my-3">
+                <p class="fw-bold">
+                  Can't shed those Gym? The problem might be in your health
+                </p>
+                <p class="text-muted my-0">Feb 13, 2021</p>
+              </div>
+              <!-- end of lifestyle sider thumbnail 2 -->
+
+              <!-- lifestyle sider thumbnail 3 -->
+              <div
+                class="col-4 p-0 d-flex align-items-center showcase-robert my-3"
+              >
+                <span
+                  ><img
+                    src="http://demo.themewinter.com/html/news247-bs4/images/news/lifestyle/architecture1.jpg"
+                    alt=""
+                /></span>
+              </div>
+              <div class="col-8 my-3">
+                <p class="fw-bold">
+                  Can't shed those Gym? The problem might be in your health
+                </p>
+                <p class="text-muted my-0">Feb 13, 2021</p>
+              </div>
+              <!-- end of lifestyle sider thumbnail 3 -->
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mx-auto">
+            <h6 class="text-uppercase my-5">About Us</h6>
+            <ul class="list-unstyled text-white">
+              <li class="">About the Post</li>
+              <li class="py-3">Masthead</li>
+              <li class="">Editorial Standards & Integrity</li>
+              <li class="py-3">Workplace Harassment Policy</li>
+              <li class="pb-5">Privacy Policy</li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <h6 class="text-uppercase my-5">read us</h6>
+            <ul class="list-unstyled">
+              <li class="">Home Delivery</li>
+              <li class="py-3">ePaper</li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mx-auto">
+            <h6 class="text-uppercase my-5">Contact us</h6>
+            <ul class="list-unstyled text-white">
+              <li class="">Write for the Post</li>
+              <li class="py-3">Letters to the Editor</li>
+              <li class="">Advertise in the Post</li>
+              <li class="py-3">Work for the Post</li>
+              <li class="pb-5">Send us a tip</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="copy-term">
+        <div class="container">
+          <div class="d-flex justify-content-between flex-wrap">
+            <div class="copy-term_left">
+              <p>Copyright © 2021 News247 All Rights Reserved.</p>
+            </div>
+            <div class="copy-term_right">
+              <ul class="list-inline">
+                <li class="list-inline-item">Site Terms</li>
+                <li class="list-inline-item">Privacy</li>
+                <li class="list-inline-item">Advertisement</li>
+                <li class="list-inline-item">Cookies Policy</li>
+                <li class="list-inline-item">Contact Us</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer section -->
+
+    <!-- modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <!-- modal content -->
+        <div class="modal-content">
+          <!-- modal body -->
+          <div class="modal-body">
+            <div class="ratio ratio-16x9">
+              <iframe
+                src="https://www.youtube.com/embed/mwfkNDztMSs"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end of modal -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- jquery cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- my scripts -->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
